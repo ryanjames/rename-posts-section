@@ -1,0 +1,18 @@
+{
+  "name": "ryanjames/rename-posts-section",
+  "description": "Renames post section to News",
+  "homepage": "https://github.com/ryanjames/rename-posts-section",
+  "keywords": ["wordpress", "wp", "plugin", "posts"],
+  "type": "wordpress-plugin",
+  "license": "GPL-2.0-or-later",
+  "authors": [
+    {
+      "name": "ryanjames",
+      "email": "ryan@ryanjam.es"
+    }
+  ],
+  "require": {
+      "composer/installers": "~1.0"
+  },
+  "minimum-stability": "dev"
+}
