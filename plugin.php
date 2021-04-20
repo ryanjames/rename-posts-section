@@ -38,3 +38,4 @@ function cp_change_post_object() {
         $labels->all_items = 'All News';
         $labels->menu_name = 'News';
         $labels->name_admin_bar = 'News';
+}
