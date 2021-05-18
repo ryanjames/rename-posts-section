@@ -11,7 +11,7 @@
  * @wordpress-plugin
  * Plugin Name: Rename Posts Section
  * Plugin URI:  https://github.com/ryanjames/rename-posts-section
- * Description: Renames post section to News
+ * Description: Renames post section to Blog
  * Version:     1.0.0
  * Author:      Ryan James
  * Author URI:  https://ryanjam.es
@@ -21,7 +21,7 @@
  */
 
 add_action( 'init', 'cp_change_post_object' );
-// Change dashboard Posts to News
+// Change dashboard Posts to Blog
 function cp_change_post_object() {
     $get_post_type = get_post_type_object('post');
     $labels = $get_post_type->labels;
@@ -30,11 +30,11 @@ function cp_change_post_object() {
         $labels->add_new = 'Add Post';
         $labels->add_new_item = 'Add Post';
         $labels->edit_item = 'Edit Post';
-        $labels->new_item = 'News';
+        $labels->new_item = 'Post';
         $labels->view_item = 'View Post';
         $labels->search_items = 'Search Blog';
-        $labels->not_found = 'No News found';
-        $labels->not_found_in_trash = 'No News found in Trash';
+        $labels->not_found = 'No blog posts found found';
+        $labels->not_found_in_trash = 'No blog posts found in Trash';
         $labels->all_items = 'All Posts';
         $labels->menu_name = 'Blog';
         $labels->name_admin_bar = 'Blog';
