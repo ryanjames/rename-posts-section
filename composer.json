@@ -1,6 +1,6 @@
 {
   "name": "ryanjames/rename-posts-section",
-  "description": "Renames post section to News",
+  "description": "Renames post section to Insights",
   "homepage": "https://github.com/ryanjames/rename-posts-section",
   "keywords": ["wordpress", "wp", "plugin", "posts"],
   "type": "wordpress-plugin",
